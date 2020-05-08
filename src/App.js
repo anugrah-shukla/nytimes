@@ -1,8 +1,8 @@
 import React from 'react';
-import Navigation from './components/Navigation';
-import SearchBar from './components/SearchBar';
-// import Graph from './components/Graph';
-// import Results from './components/Results';
+import NavigationPane from './layout/NavigationPane';
+import SearchBarPane from './layout/SearchPane';
+import ResultGraphPane from './layout/ResultGraphPane';
+import ResultTablePane from './layout/ResultTablePane';
 
 import './App.css';
 
@@ -14,7 +14,7 @@ function App() {
       border: "1px solid #DEDEDE",
       opacity: 1
       }}>
-        <Navigation/>
+        <NavigationPane/>
         <div style={{
             height: "100%",
             width: "80%",
@@ -22,9 +22,9 @@ function App() {
             right: "0",
             backgroundColor: "#DEDEDE"
           }}>
-          <SearchBar/>
-          <div style = {{height:'45%',backgroundColor: "#33558B"}}>1</div>
-          <div style = {{height:'45%',backgroundColor: "#7B8C92"}}>1</div>
+          <SearchBarPane/>
+          <ResultTablePane/>
+          <ResultGraphPane/>
         </div>
     </div>
   );
