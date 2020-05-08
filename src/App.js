@@ -2,7 +2,7 @@ import React from 'react';
 import Navigation from './components/Navigation';
 // import SearchBar from './components/SearchBar';
 // import Graph from './components/Graph';
-// import Results from './components/Results';
+import Results from './components/Results';
 
 import './App.css';
 
@@ -23,7 +23,7 @@ function App() {
             backgroundColor: "#DEDEDE"
           }}>
           <div style = {{height:'10%',backgroundColor: "#434D71"}}>1</div>
-          <div style = {{height:'45%',backgroundColor: "#33558B"}}>1</div>
+          <div style = {{height:'45%',backgroundColor: "#33558B"}}><Results/></div>
           <div style = {{height:'45%',backgroundColor: "#7B8C92"}}>1</div>
         </div>
     </div>
