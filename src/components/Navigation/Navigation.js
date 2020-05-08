@@ -4,9 +4,9 @@ import './style.css';
 class Navigation extends React.Component {
     render() {
       return (
-      <div className="text">
-        <div>
-          <img src="..\public\nytimes_logo.png" />
+      <div>
+        <div className="logo">
+          <img src="..\public\nytimes_logo.png" alt="This is an image."/>
         </div>
         <div className="list">
           <p>Dashboard</p>

@@ -1,35 +1,17 @@
 import React from 'react';
 import Navigation from './components/Navigation';
 import SearchBar from './components/SearchBar';
-// import Graph from './components/Graph';
 import Results from './components/Results';
 
 import './App.css';
 
 function App() {
   return (
-    <div style={{width:window.innerWidth,
-      height:window.innerHeight,
-      background: "#F6F8F8 0% 0% no-repeat padding-box",
-      border: "1px solid #DEDEDE",
-      opacity: 1
-      }}>
-        <Navigation/>
-        <div style={{
-            height: "100%",
-            width: "80%",
-            position: "fixed",
-            right: "0",
-            backgroundColor: "#DEDEDE"
-          }}>
-<<<<<<< HEAD
-          <div style = {{height:'10%',backgroundColor: "#434D71"}}>1</div>
-          <div style = {{height:'45%',backgroundColor: "#33558B"}}><Results/></div>
-=======
-          <SearchBar/>
-          <div style = {{height:'45%',backgroundColor: "#33558B"}}>1</div>
->>>>>>> 0b2049a8ba1982c88923fc629e2409b2a827ff4f
-          <div style = {{height:'45%',backgroundColor: "#7B8C92"}}>1</div>
+    <div className="main">
+        <div className="left"><Navigation/></div>
+        <div className="right">
+          <div className="top"><SearchBar/></div>
+          <div className="bottom"><Results/></div>
         </div>
     </div>
   );

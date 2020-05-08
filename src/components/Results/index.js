@@ -1,2 +1,2 @@
-import Results from './Results'
-export default Results
+import Results from './Results';
+export default Results;

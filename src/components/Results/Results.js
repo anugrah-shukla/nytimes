@@ -8,7 +8,7 @@ class Results extends React.Component {
               Search for breaking news from across the world, across the times.
           </div>
           <div className="image">
-              <img src="..\public\undraw_treasure_of9i.svg"></img>
+              <img src="..\public\undraw_treasure_of9i.svg" alt="This is an image."/>
           </div>
           </div>
       );
