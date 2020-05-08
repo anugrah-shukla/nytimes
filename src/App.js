@@ -1,6 +1,6 @@
 import React from 'react';
 import Navigation from './components/Navigation';
-// import SearchBar from './components/SearchBar';
+import SearchBar from './components/SearchBar';
 // import Graph from './components/Graph';
 import Results from './components/Results';
 
@@ -22,8 +22,13 @@ function App() {
             right: "0",
             backgroundColor: "#DEDEDE"
           }}>
+<<<<<<< HEAD
           <div style = {{height:'10%',backgroundColor: "#434D71"}}>1</div>
           <div style = {{height:'45%',backgroundColor: "#33558B"}}><Results/></div>
+=======
+          <SearchBar/>
+          <div style = {{height:'45%',backgroundColor: "#33558B"}}>1</div>
+>>>>>>> 0b2049a8ba1982c88923fc629e2409b2a827ff4f
           <div style = {{height:'45%',backgroundColor: "#7B8C92"}}>1</div>
         </div>
     </div>
