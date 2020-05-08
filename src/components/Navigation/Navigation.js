@@ -6,9 +6,7 @@ class Navigation extends React.Component {
     render() {
       return (
       <div>
-        <div className="logo">
-          <img src={nytimes_logo} alt="This is an image."/>
-        </div>
+        <img src={nytimes_logo} className="logo" alt="Website logo"/>
         <div className="list">
           <p>Dashboard</p>
           <p>Articles</p>

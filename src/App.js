@@ -6,8 +6,7 @@ import Results from './components/Results';
 import './App.css';
 
 function App() {
-  return (
-    <div className="main">
+  return (<div className="main">
         <div className="left"><Navigation/></div>
         <div className="right">
           <div className="top"><SearchBar/></div>
