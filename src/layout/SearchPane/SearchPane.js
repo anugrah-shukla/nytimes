@@ -3,7 +3,7 @@ import React from 'react';
 
 class SearchPane extends React.Component {
     render() {
-      return <div>
+      return <div style = {{height:'10%',margin:"auto"}}>
           <h1>search pane</h1>
       </div>;
     }

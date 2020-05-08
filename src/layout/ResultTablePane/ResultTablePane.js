@@ -3,7 +3,7 @@ import React from 'react';
 
 class ResultTablePane extends React.Component {
     render() {
-      return <div style = {{height:'45%',backgroundColor: "#33558B"}}>
+      return <div style = {{height:'45%',margin:"auto",verticalAlign: "top",display: "block",backgroundColor: "#33558B"}}>
           <h1>table pane</h1>
       </div>;
     }
