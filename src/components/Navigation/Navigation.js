@@ -1,17 +1,14 @@
 import React from 'react';
-// import ReactDOM from 'react-dom';
+import './style.css';
 
 class Navigation extends React.Component {
     render() {
       return (
-      <div>
-        <div style={{
-                height: "100%",
-                width: "20%",
-                position: "fixed",
-                left: "0"
-              }} >
-              <img src="..\public\nytimes_logo.png" />
+      <div className="text">
+        <div>
+          <img src="..\public\nytimes_logo.png" />
+        </div>
+        <div className="list">
           <p>Dashboard</p>
           <p>Articles</p>
           <p>Analytics</p>
